@@ -1,0 +1,125 @@
+.flex-x-rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.opacity05 {
+  opacity: 05;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.xa {
+  text-decoration: none;
+}
+
+.margin10 {
+  margin: 10px;
+}
+
+.margin5 {
+  margin: 5px;
+}
+
+.none {
+  display: none;
+}
+
+/* navs */
+
+.navs {
+  height: 30px;
+  border-bottom: 1px solid black;
+}
+
+.navs-rp {
+  margin: 0px 20px;
+}
+
+.nav-icon {
+  cursor: pointer;
+}
+
+.icon-github {
+  width: 20px;
+  height: 18px;
+  fill: black;
+}
+
+.index-nav {
+  margin: 0px 14px 0px 20px;
+  border-radius: 5%;
+  min-width: 18px;
+  min-height: 18px;
+  border: 2px solid black;
+  transition: border .1s;
+}
+.index-nav:hover {
+  border: 4px solid black;
+}
+
+.index-nav-on {
+  border: 4px solid black;
+}
+
+.nav {
+  min-width: 80px; 
+  cursor: pointer;
+  padding: 0px 12px;
+  overflow: clip;
+}
+
+.nav-off {
+  font-size: 0.9rem;
+}
+.nav-off:hover {
+  text-decoration: underline;
+}
+
+.nav-on {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.loading {
+  animation-duration: 2s;
+  animation-name: load_ing;
+  animation-iteration-count: infinite;
+}
+
+@keyframes load_ing {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.setting-bttn {
+  font-size: 0.9rem;
+  border: 1px solid black;
+  background-color: transparent;
+  color: darkgrey;
+  padding: 2px 4px;
+}
+
+.bttn-on {
+  font-weight: 500;
+  background-color: black;
+  color: white;
+}
+
+.canvas-wrap {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
